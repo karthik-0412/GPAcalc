@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (totalSubCredits !== 0) {
             const totalGradePoints = subCredit1 + subCredit2 + subCredit3 + subCredit4 + subCredit5 + subCredit6 + subCredit7+ subCredit8;
             const gpa = (totalSubCredits / totalGradePoints);
-            resultElement.innerText = `GPA: ${gpa.toFixed(2)}`;
+            resultElement.innerText = `GPA: ${gpa}`;
         } 
         else {
             resultElement.innerText = "Total subject credits cannot be zero.";
